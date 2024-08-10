@@ -77,11 +77,6 @@ button:hover {
     margin-bottom: 20px;
     justify-content: center;
 }
-/* #message {
-    width:200%;
-   border-radius: 20px;
-height:150px;
-} */
 
 label[for="message"] {
   display: block;
