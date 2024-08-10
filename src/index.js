@@ -7,6 +7,8 @@ import Home from './Home';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import ContactUs from './ContactUs';
+import AboutUs from './AboutUs';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
       <Route path="/CityOne" element={<Home/>}/>
 
       <Route path="/contact" element={<ContactUs/>}/>
+
+      <Route path="/about" element={<AboutUs/>}/>
      </Routes>
     <Footer/>
     </BrowserRouter>

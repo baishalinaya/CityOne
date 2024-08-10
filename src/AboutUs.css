@@ -1,5 +1,54 @@
-h1{
-    background-color: blueviolet;
-    text-shadow: 0px 0px 50px rgba(255, 255, 255, 1);
-    animation: shine 0.5s ease-in-out infinite;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+p{
+    color:rgba(249, 249, 67, 0.773);
+    font-size: xx-large;
+    font-family:'Fira Code', monospace;
+    font-size: 26px;
+    text-align: center;
+   }
+.Main-intro{
+    background:linear-gradient(rgb(101, 14, 14),rgb(0, 0, 0));
+    display: flex;
+    flex-direction:column;
 }
+.about{
+text-align: center;
+font-size: 100px;
+margin-top: 0%;
+padding: 0%;
+color:rgb(255, 255, 255);
+font-family:'Dancing Script', cursive;
+padding:0px; 
+text-align: center; 
+text-shadow: 0px 0px 50px rgb(255, 247, 0);
+  }
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .member {
+    width: calc(25% - 20px);
+    height:100px;
+    margin: 25px;
+    margin-top: 0%;
+    margin-bottom: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    padding: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member h2 {
+    font-size: 18px;
+    margin-top: 140px;
+    padding: 15px;
+    color: white;
+    font:bold;
+  }
+  
+ 
+  
